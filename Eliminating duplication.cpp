@@ -2,7 +2,6 @@
 #include <cstdlib>
 
 double pow(double value, int power, double result = 1.0) {
-	
 	for (int i{}; i < power; ++i) {
 		result *= value;
 	}
