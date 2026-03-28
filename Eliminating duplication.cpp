@@ -5,7 +5,7 @@ double pow(double value, int power, double result = 1.0) {
 	for (int i{}; i < power; ++i) {
 		result *= value;
 	}
-	std::cout << value << " в степени " << power << " = " << result << std::endl;
+	std::cout << value << " РІ СЃС‚РµРїРµРЅРё " << power << " = " << result << std::endl;
 	return result;
 }
 
